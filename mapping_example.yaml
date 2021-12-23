@@ -1,0 +1,277 @@
+- key: tvg-id
+  name: "TR: TV 100 HEVC"
+  want: "TV100.tr"
+- key: tvg-id
+  name: "TR: DMAX HEVC"
+  want: "DMAXTurkiye.tr"
+- name: "TR: DMAX HD"
+  want: "DMAXTurkiye.tr"
+- name: "TR: DMAX FHD"
+  want: "DMAXTurkiye.tr"
+- key: tvg-id
+  name: "TR: A2 HEVC"
+  want: "A2.tr"
+- key: tvg-id
+  name: "TR: A2 HD"
+  want: "A2.tr"
+- key: tvg-id
+  name: "TR: A2 FHD"
+  want: "A2.tr"
+- key: tvg-id
+  name: "TR: NAT GEO WILD HD"
+  want: "NationalGeographicWildTurkiye.tr"
+- key: tvg-id
+  name: "TR: NAT GEO WILD FHD"
+  want: "NationalGeographicWildTurkiye.tr"
+- key: tvg-id
+  name: "TR: NAT GEO WILD HEVC"
+  want: "NationalGeographicWildTurkiye.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART MAX"
+  want: "DiziSmartMax.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART Max HEVC"
+  want: "DiziSmartMax.tr"
+- key: tvg-id
+  name: "TR: TRT 2 HD"
+  want: "TRT2.tr"
+- key: tvg-id
+  name: "TR: TRT 2 FHD"
+  want: "TRT2.tr"
+- key: tvg-id
+  name: "TR: FLASH TV"
+  want: "FlashTV.tr"
+- key: tvg-id
+  name: "TR: EURO D"
+  want: "EuroD.tr"
+- key: tvg-id
+  name: "TR: AKILLI TV"
+  want: "AkilliTV.tr"
+- key: tvg-id
+  name: "TR: CEM TV"
+  want: "CemTV.tr"
+- key: tvg-id
+  name: "TR: FIGHT BOX HD"
+  want: "FightBoxHD.tr"
+- key: tvg-id
+  name: "TR: TRT SPOR YILDIZ HD"
+  want: "TRTSporYildiz.tr"
+- key: tvg-id
+  name: "TR: TRT SPOR YILDIZ FHD"
+  want: "TRTSporYildiz.tr"
+- key: tvg-id
+  name: "TR: TELE 1 TV"
+  want: "Tele1.tr"
+- key: tvg-id
+  name: "KRT TV-TR"
+  want: "KRT.tr"
+- key: tvg-id
+  name: "TR: KRT TV HD"
+  want: "KRT.tr"
+- key: tvg-id
+  name: "TV 100"
+  want: "TV100.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART PREMIUM"
+  want: "DiziSmartPremium.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART MAX"
+  want: "DiziSmartMax.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART Max HEVC  "
+  want: "DiziSmartMax.tr"
+- key: tvg-id
+  name: "TR: BBC First"
+  want: "BBCFirstTurkiye.tr"
+- key: tvg-id
+  name: "TR: SINEMA TV FHD"
+  want: "SinemaTV.tr"
+- key: tvg-id
+  name: "TR: SINEMA TV HD"
+  want: "SinemaTV.tr"
+- key: tvg-id
+  name: "TR: SINEMA TV AKSIYON HD"
+  want: "SinemaAksiyon.tr"
+- key: tvg-id
+  name: "TR: SINEMA TV AKSIYON 2 FHD"
+  want: "SinemaAksiyon2.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV AiLE HD"
+  want: "SinemaAile.tr"
+- key: tvg-id
+  name: "TR: SINEMA TV AILE 2 FHD"
+  want: "SinemaAile2.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV KOMEDi HD"
+  want: "SinemaKomedi.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV KOMEDi 2 HD"
+  want: "SinemaKomedi2.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV KOMEDi 2 FHD"
+  want: "SinemaKomedi2.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV 1002 HD"
+  want: "Sinema1002.tr"
+- key: tvg-id
+  name: "TR: NAT GEO HD"
+  want: "NationalGeographicTurkiye.tr"
+- key: tvg-id
+  name: "TR: NAT GEO FHD"
+  want: "NationalGeographicTurkiye.tr"
+- key: tvg-id
+  name: "TR: NATIONAL GEOGRAPHIC HEVC"
+  want: "NationalGeographicTurkiye.tr"
+- key: tvg-id
+  name: "TR: INSIGHT TV"
+  want: "InsightHD.tr"
+- key: tvg-id
+  name: "TR: Love Nature FHD"
+  want: "LoveNature.tr"
+- key: tvg-id
+  name: "TR: VIASAT EXPLORE HD"
+  want: "ViasatExplore.tr"
+- key: tvg-id
+  name: "Viasat History HD-TR"
+  want: "ViasatExplore.tr"
+- key: tvg-id
+  name: "TR: 24 KITCHEN FHD"
+  want: "24kitchen.tr"
+- key: tvg-id
+  name: "TR: TV 4 HD"
+  want: "TV4.tr"
+- key: tvg-id
+  name: "TR: TV 4 FHD"
+  want: "TV4.tr"
+- key: tvg-id
+  name: "TR: TRT COCUK HD"
+  want: "TRTCocuk.tr"
+- key: tvg-id
+  name: "TR: TRT COCUK FHD"
+  want: "TRTCocuk.tr"
+- key: tvg-id
+  name: "TR: NICKELODEON HD"
+  want: "NickelodeonHD.tr"
+- key: tvg-id
+  name: "TR: NICK JR HD"
+  want: "NickJrTurkiye.tr"
+- key: tvg-id
+  name: "TR: NICKTOONS"
+  want: "NicktoonsTurkiye.tr"
+- key: tvg-id
+  name: "TR: DISNEY CHANNEL HD"
+  want: "DisneyChannelTurkiye.tr"
+- key: tvg-id
+  name: "TR: DISNEY CHANNEL HD"
+  want: "DisneyChannelTurkiye.tr"
+- key: tvg-id
+  name: "TR: BEYAZ TV HEVC"
+  want: "BeyazTV.tr"
+- key: tvg-id
+  name: "TR: BEYAZ TV HD"
+  want: "BeyazTV.tr"
+- key: tvg-id
+  name: "TR: BEYAZ TV FHD"
+  want: "BeyazTV.tr"
+- key: tvg-id
+  name: "TR: TRT SPOR YILDIZ HD"
+  want: "TRTSporYildiz.tr"
+- key: tvg-id
+  name: "TR: TRT SPOR YILDIZ FHD"
+  want: "TRTSporYildiz.tr"
+- key: tvg-id
+  name: "TR: TRT SPOR YILDIZ HEVC"
+  want: "TRTSporYildiz.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART Premium HEVC"
+  want: "DiziSmartPremium.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART PREMIUM"
+  want: "DiziSmartPremium.tr"
+- key: tvg-id
+  name: "TR: MOVIE SMART TURK HEVC"
+  want: "MovieSmartTurk.tr"
+- key: tvg-id
+  name: "TR: MOVIESMART Turk"
+  want: "MovieSmartTurk.tr"
+- key: tvg-id
+  name: "TR: MOVIESMART Turk"
+  want: "MovieSmartTurk.tr"
+- key: tvg-id
+  name: "TR: EURO D"
+  want: "EuroD.tr"
+- key: tvg-id
+  name: "TR: TRT 3 SPOR / Meclis TV"
+  want: "TRT3.tr"
+- key: tvg-id
+  name: "TR: FIGHT BOX HD"
+  want: "FightBoxHD.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 1 Premium+"
+  want: "SporSmart.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 1 Premium+"
+  want: "SporSmart.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 1 Vip"
+  want: "SporSmart.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 1 HD"
+  want: "SporSmart.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 1 FHD"
+  want: "SporSmart.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 2 UHD"
+  want: "SporSmart2.tr"
+- key: tvg-id
+  name: "TR: SPOR SMART 2 FHD"
+  want: "SporSmart2.tr"
+- key: tvg-id
+  name: "TR: BEIN MOVIES STARS HD"
+  want: "BeInMoviesStars.tr"
+- key: tvg-id
+  name: "TR: BEIN SERIES VICE HD"
+  want: "BeInSeriesVice.tr"
+- key: tvg-id
+  name: "TR: BEIN SERIES SCI-FI HD"
+  want: "BeInSeriesSciFi.tr"
+- key: tvg-id
+  name: "TR: BEIN SERIES VICE HD"
+  want: "BeInSeriesSciFi.tr"
+- key: tvg-id
+  name: "TR: BOX OFFICE 2"
+  want: "BeInBoxOffice2Turkiye.tr"
+- key: tvg-id
+  name: "TR: MOVIESMART Turk"
+  want: "MovieSmartTurk.tr"
+- key: tvg-id
+  name: "TR: DIZI SMART PREMIUM"
+  want: "DiziSmartPremium.tr"
+- key: tvg-id
+  name: "TR: BBC First"
+  want: "BBCFirstTurkiye.tr"
+- key: tvg-id
+  name: "TR: SiNEMA TV 1002 HD"
+  want: "Sinema1002.tr"
+- key: tvg-id
+  name: "TR: INSIGHT TV"
+  want: "InsightHD.tr"
+- key: tvg-id
+  name: "TR: CHASSE & PECHE"
+  want: "ChassePeche.fr"
+- key: tvg-id
+  name: "TR: VIASAT EXPLORE HD"
+  want: "ViasatExplore.tr"
+- key: tvg-id
+  name: "TR: VIASAT EXPLORE FHD"
+  want: "ViasatExplore.tr"
+- key: tvg-id
+  name: "TR: TV 4 FHD"
+  want: "TV4.tr"
+- key: tvg-id
+  name: "TR: ANIMAUX"
+  want: "Animaux.fr"
+- key: tvg-id
+  name: "TR: Love Nature HD"
+  want: "LoveNature.tr"

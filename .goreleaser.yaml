@@ -1,0 +1,121 @@
+project_name: iptv-proxy
+
+builds:
+  - binary: iptv-proxy
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+      - -a
+    goos:
+      - linux
+      - windows
+      - darwin
+
+    goarch:
+      - amd64
+      - arm64
+      - arm
+    goarm:
+      - 6
+      - 7
+
+archives:
+  - format_overrides:
+      - goos: windows
+        format: zip
+
+release:
+  github:
+    owner: xybydy
+    name: iptv-proxy
+  draft: false
+
+nfpms:
+  - vendor: Fatih Ka.
+    homepage: https://github.com/xybydy/iptv-proxy
+    maintainer: Fatih Ka.
+    description: Reverse proxy on iptv m3u file
+    license: Apache 2.0
+    formats:
+      - deb
+      - rpm
+
+dockers:
+  - image_templates:
+      - "ghcr.io/xybydy/iptv-proxy/iptv-proxy:{{ .Tag }}-arm64"
+      - "ghcr.io/xybydy/iptv-proxy/iptv-proxy:latest-arm64"
+      - "xybydy/iptv-proxy:{{ .Tag }}-arm64"
+    use: buildx
+    goos: linux
+    goarch: arm64
+    ids:
+      - iptv-proxy
+    build_flag_templates:
+      - "--platform=linux/arm64"
+      - "--label=org.opencontainers.image.created={{.Date}}"
+      - "--label=org.opencontainers.image.name={{.ProjectName}}"
+      - "--label=org.opencontainers.image.revision={{.FullCommit}}"
+      - "--label=org.opencontainers.image.version={{.Version}}"
+    dockerfile: .Dockerfile.goreleaser
+
+  - image_templates:
+      - "xybydy/iptv-proxy:{{ .Tag }}-amd64"
+    use: buildx
+    goos: linux
+    goarch: amd64
+    ids:
+      - iptv-proxy
+    build_flag_templates:
+      - "--platform=linux/amd64"
+      - "--label=org.opencontainers.image.created={{.Date}}"
+      - "--label=org.opencontainers.image.name={{.ProjectName}}"
+      - "--label=org.opencontainers.image.revision={{.FullCommit}}"
+      - "--label=org.opencontainers.image.version={{.Version}}"
+    dockerfile: .Dockerfile.goreleaser
+
+  - image_templates:
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv6"
+    use: buildx
+    goos: linux
+    goarch: arm
+    goarm: 6
+    ids:
+      - iptv-proxy
+    build_flag_templates:
+      - "--platform=linux/arm/v6"
+      - "--label=org.opencontainers.image.created={{.Date}}"
+      - "--label=org.opencontainers.image.name={{.ProjectName}}"
+      - "--label=org.opencontainers.image.revision={{.FullCommit}}"
+      - "--label=org.opencontainers.image.version={{.Version}}"
+    dockerfile: .Dockerfile.goreleaser
+
+  - image_templates:
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv7"
+    use: buildx
+    goos: linux
+    goarch: arm
+    goarm: 7
+    ids:
+      - iptv-proxy
+    build_flag_templates:
+      - "--platform=linux/arm/v7"
+      - "--label=org.opencontainers.image.created={{.Date}}"
+      - "--label=org.opencontainers.image.name={{.ProjectName}}"
+      - "--label=org.opencontainers.image.revision={{.FullCommit}}"
+      - "--label=org.opencontainers.image.version={{.Version}}"
+    dockerfile: .Dockerfile.goreleaser
+
+docker_manifests:
+  - name_template: xybydy/iptv-proxy:latest
+    image_templates:
+      - "xybydy/iptv-proxy:{{ .Tag }}-arm64"
+      - "xybydy/iptv-proxy:{{ .Tag }}-amd64"
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv6"
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv7"
+  - name_template: xybydy/iptv-proxy:{{ .Version }}
+    image_templates:
+      - "xybydy/iptv-proxy:{{ .Tag }}-arm64"
+      - "xybydy/iptv-proxy:{{ .Tag }}-amd64"
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv6"
+      - "xybydy/iptv-proxy:{{ .Tag }}-armv7"
