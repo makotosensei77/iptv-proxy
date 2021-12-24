@@ -2,7 +2,7 @@
 
 [![Actions Status](https://github.com/xybydy/iptv-proxy/workflows/CI/badge.svg)](https://github.com/xybydy/iptv-proxy/actions?query=workflow%3ACI)
 
-### Made some tweaks for personal neccessities. Click [here](https://github.com/pierre-emmanuelJ/iptv-proxy) for the original project. 
+### Made some tweaks for personal necessities. Click [here](https://github.com/pierre-emmanuelJ/iptv-proxy) for the original project. 
 
 ## Description
 
