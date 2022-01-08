@@ -97,6 +97,8 @@ var rootCmd = &cobra.Command{
 			M3UFileName:        viper.GetString("m3u-file-name"),
 			CustomEndpoint:     viper.GetString("custom-endpoint"),
 			MappingPath:        viper.GetString("mapping"),
+			CustomStreamHost:   viper.GetString("custom-host"),
+			KeepOriginalURLs:   viper.GetBool("keep-orig-url"),
 		}
 
 		if _, err := os.Stat(conf.M3UFileName); os.IsNotExist(err) && (xtreamBaseURL == "" || xtreamPassword == "" || xtreamUser == "") && m3uURL == "" {
@@ -147,6 +149,8 @@ func init() {
 	rootCmd.Flags().String("xtream-password", "", "Xtream-code password login")
 	rootCmd.Flags().String("xtream-base-url", "", "Xtream-code base url e.g(http://expample.tv:8080)")
 	rootCmd.Flags().Int("m3u-cache-expiration", 1, "M3U cache expiration in hour")
+	rootCmd.Flags().String("custom-host", "", "Replaces URLs of the streams not the host itself.")
+	rootCmd.Flags().Bool("keep-orig-url", false, "Keeps the original stream urls")
 	rootCmd.Flags().String("mapping", "", "Mapping yaml file path") // TODO simdilik home'dan almıyor düzeltiriz.
 
 	if e := viper.BindPFlags(rootCmd.Flags()); e != nil {

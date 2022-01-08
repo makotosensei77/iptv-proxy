@@ -211,6 +211,10 @@ func (c *Config) updateValues(track *m3u.Track) {
 
 // ReplaceURL replace original playlist url by proxy url
 func (c *Config) replaceURL(uri string, trackIndex int, xtream bool) (string, error) {
+	if c.KeepOriginalURLs {
+		return uri, nil
+	}
+
 	oriURL, err := url.Parse(uri)
 	if err != nil {
 		return "", err
@@ -239,15 +243,28 @@ func (c *Config) replaceURL(uri string, trackIndex int, xtream bool) (string, er
 		basicAuth += "@"
 	}
 
-	newURI := fmt.Sprintf(
-		"%s://%s%s:%d%s%s",
-		protocol,
-		basicAuth,
-		c.HostConfig.Hostname,
-		c.AdvertisedPort,
-		customEnd,
-		uriPath,
-	)
+	var newURI string
+	if c.CustomStreamHost == "" {
+		newURI = fmt.Sprintf(
+			"%s://%s%s:%d%s%s",
+			protocol,
+			basicAuth,
+			c.HostConfig.Hostname,
+			c.AdvertisedPort,
+			customEnd,
+			uriPath,
+		)
+	} else {
+		newURI = fmt.Sprintf(
+			"%s://%s%s:%d%s%s",
+			protocol,
+			basicAuth,
+			c.CustomStreamHost,
+			c.AdvertisedPort,
+			customEnd,
+			uriPath,
+		)
+	}
 
 	newURL, err := url.Parse(newURI)
 	if err != nil {

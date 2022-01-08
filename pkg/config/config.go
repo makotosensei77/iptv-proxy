@@ -55,4 +55,6 @@ type ProxyConfig struct {
 	HTTPS              bool
 	User, Password     CredentialString
 	MappingPath        string
+	CustomStreamHost   string
+	KeepOriginalURLs   bool
 }
