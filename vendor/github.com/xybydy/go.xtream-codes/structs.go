@@ -151,19 +151,19 @@ type Category struct {
 // Stream is a streamble video source.
 type Stream struct {
 	Added              *Timestamp `json:"added"`
-	CategoryID         int        `json:"category_id,string"`
+	CategoryID         *jsonInt   `json:"category_id,string"`
 	CategoryName       string     `json:"category_name"`
 	ContainerExtension string     `json:"container_extension"`
 	CustomSid          string     `json:"custom_sid"`
 	DirectSource       string     `json:"direct_source,omitempty"`
 	EPGChannelID       string     `json:"epg_channel_id"`
 	Icon               string     `json:"stream_icon"`
-	ID                 int        `json:"stream_id,string"`
-	Live               int        `json:"live,string"`
+	ID                 int        `json:"stream_id"`
+	Live               *jsonInt   `json:"live,string"`
 	Name               string     `json:"name"`
 	Number             int        `json:"num"`
 	Rating             FlexFloat  `json:"rating"`
-	Rating5based       float64    `json:"rating_5based,string"`
+	Rating5based       float64    `json:"rating_5based"`
 	TVArchive          int        `json:"tv_archive"`
 	TVArchiveDuration  *jsonInt   `json:"tv_archive_duration"`
 	Type               string     `json:"stream_type"`
