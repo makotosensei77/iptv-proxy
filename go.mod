@@ -10,7 +10,7 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/viper v1.10.1
-	github.com/xybydy/go.xtream-codes v0.0.0-20220108161115-e0f27fcc88ca
+	github.com/xybydy/go.xtream-codes v0.0.0-20220108174007-23450d1fe211
 	gopkg.in/yaml.v2 v2.4.0
 )
 

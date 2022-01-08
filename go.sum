@@ -408,8 +408,8 @@ github.com/ugorji/go v1.2.6/go.mod h1:anCg0y61KIhDlPZmnH+so+RQbysYVyDko0IMgJv0Nn
 github.com/ugorji/go/codec v1.1.7/go.mod h1:Ax+UKWsSmolVDwsd+7N3ZtXu+yMGCf907BLYF3GoBXY=
 github.com/ugorji/go/codec v1.2.6 h1:7kbGefxLoDBuYXOms4yD7223OpNMMPNPZxXk5TvFcyQ=
 github.com/ugorji/go/codec v1.2.6/go.mod h1:V6TCNZ4PHqoHGFZuSG1W8nrCzzdgA2DozYxWFFpvxTw=
-github.com/xybydy/go.xtream-codes v0.0.0-20220108161115-e0f27fcc88ca h1:XnWG2PN9s5IxWA7myR4qIcn7Jn3JJoA0EcBpAZNoEjA=
-github.com/xybydy/go.xtream-codes v0.0.0-20220108161115-e0f27fcc88ca/go.mod h1:83RkWxuFCBosN31S8h7+R474y29BLHL6kxgnsc9FTgQ=
+github.com/xybydy/go.xtream-codes v0.0.0-20220108174007-23450d1fe211 h1:PqBRtIp6sGz98NtniSH4wSMe+Mm9U/wBqrmtz0J6x0c=
+github.com/xybydy/go.xtream-codes v0.0.0-20220108174007-23450d1fe211/go.mod h1:83RkWxuFCBosN31S8h7+R474y29BLHL6kxgnsc9FTgQ=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=

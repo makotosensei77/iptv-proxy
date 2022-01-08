@@ -158,7 +158,7 @@ type Stream struct {
 	DirectSource       string     `json:"direct_source,omitempty"`
 	EPGChannelID       string     `json:"epg_channel_id"`
 	Icon               string     `json:"stream_icon"`
-	ID                 int        `json:"stream_id"`
+	ID                 int        `json:"stream_id,string"`
 	Live               *jsonInt   `json:"live,string"`
 	Name               string     `json:"name"`
 	Number             int        `json:"num"`

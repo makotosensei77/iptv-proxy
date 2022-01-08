@@ -107,7 +107,7 @@ github.com/subosito/gotenv
 # github.com/ugorji/go/codec v1.2.6
 ## explicit; go 1.11
 github.com/ugorji/go/codec
-# github.com/xybydy/go.xtream-codes v0.0.0-20220108161115-e0f27fcc88ca
+# github.com/xybydy/go.xtream-codes v0.0.0-20220108174007-23450d1fe211
 ## explicit
 github.com/xybydy/go.xtream-codes
 # golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
